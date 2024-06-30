@@ -7,5 +7,29 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Select & Textarea</h1>
+    <h1>Tech Support</h1>
+    <form>
+      <label for="product">Product</label>
+      <br />
+      <select name="product" id="product" multiple size="4">
+        <option value="iphone">iPhone</option>
+        <option value="imac">iMac</option>
+        <option value="macbook">Macbook</option>
+        <option value="macbook-pro" selected>Macbook Pro</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <label for="message">Message</label>
+      <br />
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Enter your issue"
+        rows="4"
+        cols="40"
+      ></textarea>
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
